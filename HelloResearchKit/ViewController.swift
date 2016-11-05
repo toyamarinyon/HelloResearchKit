@@ -37,6 +37,14 @@ class ViewController: UIViewController {
     @IBAction func authorizeTapped(sender: AnyObject) {
         HealthKitManager.autholizeHealthKit()
     }
+    
+    @IBAction func walkTapped(sender: AnyObject) {
+        let taskViewController = ORKTaskViewController(task: WalkTask, taskRun: nil)
+        taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath:NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0],isDirectory: true) as URL
+        present(taskViewController, animated: true, completion: nil)
+        HealthKitManager.startMockHeartData()
+    }
 
 
 }
@@ -44,6 +52,7 @@ class ViewController: UIViewController {
 extension ViewController : ORKTaskViewControllerDelegate {
     
     public func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
+        HealthKitManager.stopMockHeartData()
         taskViewController.dismiss(animated: true, completion: nil)
     }
 }

@@ -14,6 +14,7 @@
 		4B9BFB201DCDA077005D8AF2 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BFB1F1DCDA076005D8AF2 /* SurveyTask.swift */; };
 		4B9BFB241DCDE324005D8AF2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9BFB231DCDE323005D8AF2 /* HealthKit.framework */; };
 		4B9BFB261DCDE494005D8AF2 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BFB251DCDE494005D8AF2 /* HealthKitManager.swift */; };
+		4B9BFB281DCE0DC0005D8AF2 /* WalkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BFB271DCE0DC0005D8AF2 /* WalkTask.swift */; };
 		4BBD2E9B1DCC43DF007FDE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9A1DCC43DF007FDE75 /* AppDelegate.swift */; };
 		4BBD2E9D1DCC43DF007FDE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9C1DCC43DF007FDE75 /* ViewController.swift */; };
 		4BBD2EA01DCC43DF007FDE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9E1DCC43DF007FDE75 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 		4B9BFB211DCDE323005D8AF2 /* HelloResearchKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloResearchKit.entitlements; sourceTree = "<group>"; };
 		4B9BFB231DCDE323005D8AF2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		4B9BFB251DCDE494005D8AF2 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		4B9BFB271DCE0DC0005D8AF2 /* WalkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkTask.swift; sourceTree = "<group>"; };
 		4BBD2E971DCC43DF007FDE75 /* HelloResearchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloResearchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD2E9A1DCC43DF007FDE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBD2E9C1DCC43DF007FDE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				4B9BFB171DCC652B005D8AF2 /* ConsentDocument.swift */,
 				4B9BFB1B1DCD9474005D8AF2 /* ConsentTask.swift */,
 				4B9BFB251DCDE494005D8AF2 /* HealthKitManager.swift */,
+				4B9BFB271DCE0DC0005D8AF2 /* WalkTask.swift */,
 			);
 			path = HelloResearchKit;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				4B9BFB1C1DCD9474005D8AF2 /* ConsentTask.swift in Sources */,
 				4B9BFB261DCDE494005D8AF2 /* HealthKitManager.swift in Sources */,
 				4B9BFB201DCDA077005D8AF2 /* SurveyTask.swift in Sources */,
+				4B9BFB281DCE0DC0005D8AF2 /* WalkTask.swift in Sources */,
 				4B9BFB181DCC652B005D8AF2 /* ConsentDocument.swift in Sources */,
 				4BBD2E9B1DCC43DF007FDE75 /* AppDelegate.swift in Sources */,
 			);

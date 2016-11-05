@@ -33,6 +33,8 @@
 	<string>test message</string>
 	<key>NSHealthShareUsageDescription</key>
 	<string>share</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
