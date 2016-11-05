@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B9BFB021DCC517F005D8AF2 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9BFAFF1DCC511B005D8AF2 /* ResearchKit.framework */; };
 		4B9BFB031DCC517F005D8AF2 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9BFAFF1DCC511B005D8AF2 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B9BFB181DCC652B005D8AF2 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BFB171DCC652B005D8AF2 /* ConsentDocument.swift */; };
+		4B9BFB1C1DCD9474005D8AF2 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BFB1B1DCD9474005D8AF2 /* ConsentTask.swift */; };
 		4BBD2E9B1DCC43DF007FDE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9A1DCC43DF007FDE75 /* AppDelegate.swift */; };
 		4BBD2E9D1DCC43DF007FDE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9C1DCC43DF007FDE75 /* ViewController.swift */; };
 		4BBD2EA01DCC43DF007FDE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD2E9E1DCC43DF007FDE75 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		4B9BFAF81DCC5118005D8AF2 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../../Desktop/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		4B9BFB171DCC652B005D8AF2 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		4B9BFB1B1DCD9474005D8AF2 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		4BBD2E971DCC43DF007FDE75 /* HelloResearchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloResearchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD2E9A1DCC43DF007FDE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBD2E9C1DCC43DF007FDE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				4BBD2EA11DCC43DF007FDE75 /* Assets.xcassets */,
 				4BBD2EA31DCC43DF007FDE75 /* LaunchScreen.storyboard */,
 				4BBD2EA61DCC43DF007FDE75 /* Info.plist */,
+				4B9BFB171DCC652B005D8AF2 /* ConsentDocument.swift */,
+				4B9BFB1B1DCD9474005D8AF2 /* ConsentTask.swift */,
 			);
 			path = HelloResearchKit;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBD2E9D1DCC43DF007FDE75 /* ViewController.swift in Sources */,
+				4B9BFB1C1DCD9474005D8AF2 /* ConsentTask.swift in Sources */,
+				4B9BFB181DCC652B005D8AF2 /* ConsentDocument.swift in Sources */,
 				4BBD2E9B1DCC43DF007FDE75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
