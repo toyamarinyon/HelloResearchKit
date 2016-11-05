@@ -37,6 +37,14 @@
                                     <action selector="surveyTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jGT-FO-dnb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qN-pX-n5N">
+                                <rect key="frame" x="137" y="440" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Authorize"/>
+                                <connections>
+                                    <action selector="authorizeTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZR-5r-4YD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

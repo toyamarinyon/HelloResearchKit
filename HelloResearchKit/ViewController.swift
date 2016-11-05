@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         taskViewController.delegate = self
         present(taskViewController, animated: true, completion: nil)
     }
+    
+    @IBAction func authorizeTapped(sender: AnyObject) {
+        HealthKitManager.autholizeHealthKit()
+    }
 
 
 }
